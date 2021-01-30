@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // objection literal
+        var mhs = {
+            nama : 'satou kazuma',
+            umur : '18',
+            ips : [3.50,3.80,4.00],
+            alamat : {
+                jalan : 'jl aqua no 4',
+                kota : 'jakarta'
+            }
+        }
+        
+        // function declaration
+        let BuatDocumenMahasiswa = function (nama, npr, email, jurusan ){
+            let mhs = {}
+            mhs.nama = nama;
+            mhs.npr = npr;
+            mhs.email = email;
+            mhs.jurusan = jurusan;
+            return mhs;
+        }
+        let mhs2 = BuatDocumenMahasiswa('keyaruga', '0091234', 'wadadaw@gmail.com','teknik perawatan');
+
+        // construction
+        function Mahasiswa(nama, npr, email, jurusan){
+            this.nama = nama;
+            this.npr = npr;
+            this.email = email;
+            this.jurusan = jurusan;
+        }
+        var mhs3 = new Mahasiswa('natsuki subaru', '00009545', 'MMT@gmail.com', 'Pendidikan psikologi');
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

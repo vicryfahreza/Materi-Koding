@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function ekspression dan Function Declaration</title>
+</head>
+<script>
+    // function ekspresi
+    function ekspresi(namaku,temanku){
+        return namaku + ' dan ' + temanku;
+    }
+    // a refers to parameter namaku
+    // b refers to parameter temanku
+    let a = prompt('masukkan namamu:');
+    let b = prompt('masukkan nama_Temanmu:');
+    let hasil_ekspresi = ekspresi(a,b);
+    console.log('function ekspresi ' + hasil_ekspresi);
+
+    // function deklarasi 
+    let kali = function(input1,input2){
+        return input1 * input2;
+    }
+    let kali1 = 10;
+    let kali2 = 6;
+    console.log('function deklarasi ' + kali(kali1,kali2));
+</script>
+<body>
+
+</body>
+</html>

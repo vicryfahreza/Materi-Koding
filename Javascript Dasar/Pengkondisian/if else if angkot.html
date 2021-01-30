@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF ELSE</title>
+</head>
+<body>
+    <h1>IF ELSE STATEMENT ANGKOT</h1>
+</body>
+<script>
+    var jumlahangkot = 10;
+    for(var angka = 1 ; angka <= jumlahangkot ; angka++){
+    if(angka <= 6 && angka !== 5){
+    console.log("angkot no." + angka + " beroperasi");
+    }
+    else if((angka === 5) || (angka === 8) || (angka === 10)){
+    console.log("angkot no." + angka + " sedang lembur");
+    }
+    else{
+    console.log("angkot no." + angka + " tidak beroperasi");
+    }
+    }
+</script>
+</html>

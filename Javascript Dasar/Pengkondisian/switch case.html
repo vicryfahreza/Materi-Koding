@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH CASE</title>
+    <script>
+        var menu = prompt('masukkan menu yang ingin anda beli \n (tersedia : pizza,steak,sushi,dan,hotdog)');
+        switch(menu){
+        case'pizza':
+            confirm('harga = $200');
+            break;
+        case'steak':
+            confirm('harga = $120');
+            break;
+        case'sushi':
+            confirm('harga = $800');
+            break;
+        case'hotdog':
+            confirm('harga = $1200');
+            break;
+
+        default :
+            alert('Makanan tak tersedia');
+            break;
+        }
+    </script>
+    <style>
+        ul li{
+            list-style-type: disc;
+        }
+        ul li a{
+            text-decoration : none;
+            color: salmon;
+        }
+    </style>
+        
+</head>
+<body>
+    <h1>LIST MENU DI AKUSEHAT</h1>
+    <ul>
+        <li><a href="#">steak</a></li>
+        <li><a href="#">pizza</a></li>
+        <li><a href="#">sushi</a></li>
+        <li><a href="#">hotdog</a></li>
+    </ul>
+</body>
+</html>
