@@ -1,0 +1,22 @@
+h1{
+    color:  #0066ff;
+    font-size : 50px;
+    font-variant : small-caps;
+    text-decoration : underline;
+    text-transform : lowercase;
+  /* capitaize = huruf besar   */
+}
+
+p{
+    text-align : center;
+    text-indent : 20%;
+    text-transform : capitalize;
+  /*   letter-spacing : 20px; */
+  /*   huruf menggunakan yang letter */
+    word-spacing : 5px;
+/*   kata menggunakan word*/
+}
+
+a{
+    text-decoration : none;
+}

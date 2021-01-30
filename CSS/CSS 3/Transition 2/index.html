@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transisi</title>
+    <style>
+        body{
+            margin : 0;
+            padding: 0;
+        }
+        
+        .kotak{
+            width: 100px;
+            height: 100px;
+            margin-top: 5px ;
+            background-color: salmon;
+            overflow: hidden;
+            text-align: center;
+            line-height: 100px;
+        }
+        
+        .kotak1{transition: all 2s 1s ease;}
+        .kotak2{transition: all 2s 1s ease-in;}
+        .kotak3{transition: all 2s 1s ease-out;}
+        .kotak4{transition: all 2s 1s ease-in-out;}
+        .kotak5{transition: all 2s 1s linear;}
+        .kotak6{transition: all 2s 1s cubic-bezier(1,-0.79, 0.37, 1.31);}
+
+        .kontainer{
+            width: 900px;
+            margin: 20px auto;
+            border: solid 5px black;
+        }
+        .kontainer:hover .kotak{
+            transform: rotate(720deg);
+            background-color: royalblue;
+            margin-left: 800px;
+            
+        }
+
+        /* h1{
+            text-align: center;
+            font-weight: bold;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <h1>Rolling dude</h1>
+<div class="kontainer">
+    <div class="kotak kotak1">ease</div>
+    <div class="kotak kotak2">ease-in</div>
+    <div class="kotak kotak3">ease-out</div>
+    <div class="kotak kotak4">ease-in-out</div>
+    <div class="kotak kotak5">linear</div>
+    <div class="kotak kotak6">cubic-bazier</div>
+
+    
+</div>  
+
+</body>
+</html>

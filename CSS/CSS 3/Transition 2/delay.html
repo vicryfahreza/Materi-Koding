@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transisi</title>
+    <style>
+        body{
+            margin : 0;
+            padding: 0;
+        }
+        
+        .kotak{
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            overflow: hidden;
+            transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+        }
+
+        .kontainer{
+            width: 900px;
+            margin: 20px auto;
+            border: solid 5px black;
+        }
+        .kontainer:hover .kotak{
+            transform: rotate(720deg);
+            background-color: royalblue;
+            margin-left: 800px;
+            margin-right: 800px;
+            
+        }
+
+        /* h1{
+            text-align: center;
+            font-weight: bold;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <h1>Rolling dude</h1>
+<div class="kontainer">
+    <div class="kotak">
+        <!-- <img src="download.jpg" alt="" srcset=""> -->
+    </div>
+</div>  
+</body>
+</html>
