@@ -1,0 +1,40 @@
+tahapan materi function golang
+- function parameter
+- function return values
+- function returning multiple values
+- function named return values
+- function variadic function
+- function as values
+- function as parameter
+- function anonymous
+- function recursive
+
+Text Dokumentasi 
+
+Function variadic
+> Parameter yang brada di posisi terakhir,memiliki kemampuan dijadikan varargs
+> varargs artinya data bisa menerima lebih dari satu input, atau anggap saja semacam Array
+
+> ...tipe-data = varargs
+
+Function as value
+> Function adalah first class citizen
+> Function juga merupakan tipe dta, dan bisa disimpan didalam variable
+
+Function as parameter
+> Function tidak hanya bisa kita simpan didalam variabe sebagai value
+> Namun juga bisa kita gunakan sebagai parameter untuk function lain
+
+Function anonymous
+> membuat function secara langsung di variable atau parameter tanpa harus membuat nama function terlebih dahulu
+> anonymous function, yaitu function tanpa nama
+code program
+registerUser("vicry", func(name string) bool {
+		return name == "vicry"
+	})
+
+
+Function recursive
+> Recursive function adalah function yang memanggil function dirinya sendiri
+> Recursive function lebih mudah digunakan dibanding tidak menggunakan recursive function
+> contoh recursive yang simple adalah faktorial

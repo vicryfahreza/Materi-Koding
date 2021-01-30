@@ -1,0 +1,15 @@
+Tahapan pro 1
+-Closure
+-Defer,Panic,dan Recover
+-Comment
+-Struct
+-Struct Method
+-Interface
+-Interface Kosong
+-Nil
+-Error Interface
+-Type Assertion
+-Pointer
+-Pointer di Function
+-Pointer di Method 
+-GOPATH

@@ -1,0 +1,16 @@
+Tahapan belajar package di go
+-Package & Import
+-Acces Modifier
+-Package initialization
+-Package os
+-Package slag
+-Package strings
+-Package strconv
+-Package math
+-Package container/list
+-Package container/ring
+-Package sort
+-Package time
+-Package reflect
+-Package regexp
+
